@@ -130,6 +130,31 @@ body {
   margin: 0;
 }
 
+@media (max-width: 700px) {
+  #heroImageText h1 {
+    font-size: 14vw;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 850;
+  }
+
+  #heroImageText h2 {
+    font-size: 6vw;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 750;
+  }
+
+  #heroImageText h3 {
+    font-size: 3vw;
+    margin: 0;
+  }
+
+  #heroImageText {
+    margin-bottom: 10vh;
+  }
+}
+
 /****************************************************************/
 
 #container {
@@ -208,6 +233,10 @@ p {
 }
 
 @media (max-width: 700px) {
+  #container {
+    margin-top: 6vh;
+  }
+
   #image img {
     width: 75vw;
   }
@@ -305,6 +334,10 @@ p {
 }
 
 @media (max-width: 700px) {
+  #container2 {
+    margin-top: 6vh;
+  }
+
   #image2 img {
     width: 75vw;
   }
@@ -409,6 +442,10 @@ p {
 }
 
 @media (max-width: 700px) {
+  #container3 {
+    margin-top: 6vh;
+  }
+
   #image3 img {
     width: 75vw;
   }
