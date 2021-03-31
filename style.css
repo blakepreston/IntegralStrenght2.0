@@ -231,7 +231,7 @@ p {
   border-bottom: solid 0.1em red;
   border-top: none;
   border-right: none;
-  padding-right: 50%;
+  padding-right: 75px;
   padding-bottom: 0.1em;
   transition-duration: 1s;
 }
@@ -351,7 +351,7 @@ p {
   border-bottom: solid 0.1em red;
   border-top: none;
   border-right: none;
-  padding-right: 50%;
+  padding-right: 75px;
   padding-bottom: 0.1em;
   transition-duration: 1s;
 }
@@ -472,7 +472,7 @@ p {
   border-bottom: solid 0.1em red;
   border-top: none;
   border-right: none;
-  padding-right: 50%;
+  padding-right: 75px;
   padding-bottom: 0.1em;
   transition-duration: 1s;
 }
