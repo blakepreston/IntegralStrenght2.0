@@ -5,6 +5,10 @@ body {
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #navigation {
   position: fixed;
   width: 100%;
@@ -20,6 +24,11 @@ body {
 #navigation div {
   padding: 3%;
   font-weight: 650;
+}
+
+#navigation a {
+  text-decoration: none;
+  color: black;
 }
 
 #logo {
@@ -195,6 +204,8 @@ body {
 #text:hover {
   margin-right: 10%;
   transition-duration: 1s;
+  border-left: 10px solid red;
+  padding-left: 25px;
 }
 
 #text h1 {
@@ -227,8 +238,8 @@ p {
   background: transparent;
   font-weight: 600;
   font-size: 1.2em;
-  border-left: solid 0.1em red;
-  border-bottom: solid 0.1em red;
+  border-left: solid 3px red;
+  border-bottom: solid 3px red;
   border-top: none;
   border-right: none;
   padding-right: 75px;
@@ -316,11 +327,14 @@ p {
   height: 450px;
   margin-left: 5%;
   transition-duration: 1s;
+  margin-top: 0;
 }
 
 #text2:hover {
   margin-bottom: 5%;
   transition-duration: 1s;
+  border-right: 10px solid red;
+  padding-right: 25px;
 }
 
 #text2 h1 {
@@ -340,15 +354,15 @@ p {
 
 #image2 img {
   width: 550px;
-  margin-top: 1%;
+  margin-top: 15%;
 }
 
 #priceButton2 {
   background: transparent;
   font-weight: 600;
   font-size: 1.2em;
-  border-left: solid 0.1em red;
-  border-bottom: solid 0.1em red;
+  border-left: solid 3px red;
+  border-bottom: solid 3px red;
   border-top: none;
   border-right: none;
   padding-right: 75px;
@@ -443,6 +457,8 @@ p {
 #text3:hover {
   margin-right: 10%;
   transition-duration: 1s;
+  border-left: 10px solid red;
+  padding-left: 25px;
 }
 
 #text3 h1 {
@@ -468,8 +484,8 @@ p {
   background: transparent;
   font-weight: 600;
   font-size: 1.2em;
-  border-left: solid 0.1em red;
-  border-bottom: solid 0.1em red;
+  border-left: solid 3px red;
+  border-bottom: solid 3px red;
   border-top: none;
   border-right: none;
   padding-right: 75px;
