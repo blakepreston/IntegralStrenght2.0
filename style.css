@@ -1,0 +1,438 @@
+body {
+  margin: 0;
+  width: 100%;
+  font-family: Futura, sans-serif;
+  font-style: normal;
+}
+
+#navigation {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  z-index: 3;
+}
+
+#navigation div {
+  padding: 3%;
+  font-weight: 650;
+}
+
+#logo {
+  position: relative;
+  height: 85px;
+}
+
+#facebook {
+  position: relative;
+  height: 35px;
+}
+
+#instagram {
+  position: relative;
+  height: 35px;
+}
+
+#mobileNav {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  #navigation {
+    display: none;
+  }
+
+  #mobileNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  #menubtn {
+    height: 60px;
+    margin-left: 25%;
+  }
+
+  #mobileLogo {
+    height: 80px;
+  }
+}
+
+/* @media (max-width: 699px) {
+  #mobileNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(97, 88, 88);
+  }
+} */
+
+/****************************************************************/
+
+#heroImage {
+  position: relative;
+  z-index: 1;
+  background-color: black;
+  background-image: url(/groupPic.jpeg);
+  height: 69vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* #heroImage img {
+  margin-top: 25px;
+  width: 100%;
+  opacity: 70%;
+} */
+
+#heroImageText {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: white;
+  text-align: right;
+  margin-bottom: 2%;
+  z-index: 4;
+}
+
+#heroImageText h1 {
+  font-size: 7vw;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 850;
+}
+
+#heroImageText h2 {
+  font-size: 5vw;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 750;
+}
+
+#heroImageText h3 {
+  font-size: 1.2vw;
+  margin: 0;
+}
+
+/****************************************************************/
+
+#container {
+  /* background-color: rgb(201, 201, 201); */
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#text {
+  width: 450px;
+  height: 450px;
+  margin-right: 5%;
+  margin-left: 20%;
+  transition-duration: 1s;
+}
+
+#text:hover {
+  margin-right: 10%;
+  transition-duration: 1s;
+}
+
+#text h1 {
+  font-size: 4em;
+  font-weight: 800;
+}
+
+#text p {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+#text h1,
+p {
+  width: 450px;
+}
+
+#image {
+  margin-right: 15%;
+}
+
+#image img {
+  width: 550px;
+  margin-right: 5%;
+  margin-top: 1%;
+}
+
+@media (max-width: 1100px) {
+  #container {
+    flex-direction: column-reverse;
+    margin-top: 190px;
+    margin-bottom: 190px;
+    align-items: center;
+  }
+
+  #text {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #image {
+    margin-right: 0;
+  }
+
+  #image img {
+    margin-right: 0;
+  }
+
+  #text:hover {
+    margin-bottom: 5%;
+    margin-right: 0;
+    transition-duration: 1s;
+  }
+}
+
+@media (max-width: 700px) {
+  #image img {
+    width: 75vw;
+  }
+
+  #text {
+    width: 75vw;
+    height: 75vw;
+    margin-left: 5%;
+  }
+
+  #text h1,
+  p {
+    width: 75vw;
+  }
+
+  #text h1 {
+    font-size: 3em;
+    font-weight: 800;
+  }
+
+  #text p {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+}
+
+/****************************************************************/
+
+#container2 {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#text2 {
+  width: 450px;
+  height: 450px;
+  margin-left: 5%;
+  transition-duration: 1s;
+}
+
+#text2:hover {
+  margin-left: 10%;
+  transition-duration: 1s;
+}
+
+#text2 h1 {
+  font-size: 4em;
+  font-weight: 800;
+}
+
+#text2 p {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+#text2 h1,
+p {
+  width: 450px;
+}
+
+#image2 img {
+  width: 550px;
+  margin-top: 1%;
+}
+
+@media (max-width: 1100px) {
+  #container2 {
+    flex-direction: column;
+    margin-top: 350px;
+    margin-bottom: 190px;
+    align-items: center;
+  }
+
+  #text2 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #image2 {
+    margin-right: 0;
+  }
+
+  #image2 img {
+    margin-right: 0;
+  }
+
+  #text2:hover {
+    margin-bottom: 5%;
+    margin-right: 0;
+    transition-duration: 1s;
+  }
+}
+
+@media (max-width: 700px) {
+  #image2 img {
+    width: 75vw;
+  }
+
+  #text2 {
+    width: 75vw;
+    height: 75vw;
+    margin-left: 5%;
+  }
+
+  #text2 h1,
+  p {
+    width: 75vw;
+  }
+
+  #text2 h1 {
+    font-size: 3em;
+    font-weight: 800;
+  }
+
+  #text2 p {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+}
+
+/****************************************************************/
+
+#container3 {
+  /* background-color: rgb(201, 201, 201); */
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#text3 {
+  width: 450px;
+  height: 450px;
+  margin-right: 5%;
+  margin-left: 20%;
+  transition-duration: 1s;
+}
+
+#text3:hover {
+  margin-right: 10%;
+  transition-duration: 1s;
+}
+
+#text3 h1 {
+  font-size: 4em;
+  font-weight: 800;
+}
+
+#text3 p {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+#text3 h1,
+p {
+  width: 450px;
+}
+
+#image3 {
+  margin-right: 15%;
+}
+
+#image3 img {
+  width: 550px;
+  margin-right: 5%;
+  margin-top: 1%;
+}
+
+@media (max-width: 1100px) {
+  #container3 {
+    flex-direction: column-reverse;
+    margin-top: 350px;
+    margin-bottom: 190px;
+    align-items: center;
+  }
+
+  #text3 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #image3 {
+    margin-right: 0;
+  }
+
+  #image3 img {
+    margin-right: 0;
+  }
+
+  #text3:hover {
+    margin-bottom: 5%;
+    margin-right: 0;
+    transition-duration: 1s;
+  }
+}
+
+@media (max-width: 700px) {
+  #image3 img {
+    width: 75vw;
+  }
+
+  #text3 {
+    width: 75vw;
+    height: 75vw;
+    margin-left: 5%;
+  }
+
+  #text3 h1,
+  p {
+    width: 75vw;
+  }
+
+  #text3 h1 {
+    font-size: 3em;
+    font-weight: 800;
+  }
+
+  #text3 p {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+}
+
+/****************************************************************/
