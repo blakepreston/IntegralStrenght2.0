@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  width: 100%;
+  font-family: Futura, sans-serif;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#navigation {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  z-index: 3;
+}
+
+#navigation div {
+  padding: 3%;
+  font-weight: 650;
+}
+
+#navigation a {
+  text-decoration: none;
+  color: black;
+}
+
+#logo {
+  position: relative;
+  height: 85px;
+}
+
+#facebook {
+  position: relative;
+  height: 35px;
+}
+
+#instagram {
+  position: relative;
+  height: 35px;
+}
+
+#mobileNav {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  #navigation {
+    display: none;
+  }
+
+  #mobileNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  #menubtn {
+    height: 60px;
+    margin-left: 25%;
+  }
+
+  #mobileLogo {
+    height: 80px;
+  }
+}
+
+/* @media (max-width: 699px) {
+    #mobileNav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      z-index: 3;
+      position: fixed;
+      width: 100%;
+      background-color: rgb(97, 88, 88);
+    }
+  } */
+
+/****************************************************************/
+
+#heroImage {
+  position: relative;
+  z-index: 1;
+  background-color: black;
+  background-image: url(/groupPic.jpeg);
+  height: 69vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* #heroImage img {
+    margin-top: 25px;
+    width: 100%;
+    opacity: 70%;
+  } */
+
+#heroImageText {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: white;
+  text-align: right;
+  margin-bottom: 2%;
+  z-index: 4;
+}
+
+#heroImageText h1 {
+  font-size: 6.5vw;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 850;
+}
+
+#heroImageText h2 {
+  font-size: 4.5vw;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+#heroImageText h3 {
+  font-size: 1.2vw;
+  margin: 0;
+}
+
+#readMore {
+  margin-top: 1em;
+  background-color: red;
+  border: solid 0.1em red;
+  color: white;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+#contactMe {
+  margin-top: 1em;
+  background-color: transparent;
+  border: solid 0.1em white;
+  color: white;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+@media (max-width: 700px) {
+  #heroImageText h1 {
+    font-size: 14vw;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 850;
+  }
+
+  #heroImageText h2 {
+    font-size: 6vw;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 750;
+  }
+
+  #heroImageText h3 {
+    font-size: 3vw;
+    margin: 0;
+  }
+
+  #heroImageText {
+    margin-bottom: 10vh;
+  }
+}
+
+/****************************************************************/
+#aboutSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+#aboutSection h1 {
+  text-align: center;
+}
+/****************************************************************/
+
+#container4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5%;
+}
+
+#container4 div {
+  margin: 5%;
+  border: 5px black solid;
+  padding: 30px;
+  text-align: center;
+}
+
+@media (max-width: 1100px) {
+  #container4 {
+    flex-direction: column;
+  }
+}
