@@ -188,6 +188,13 @@ html {
   font-size: 1em;
 }
 
+@media (max-width: 900px) {
+  #heroImage {
+    background-image: url(/heroImageMobile.jpg);
+    background-position: center center;
+  }
+}
+
 @media (max-width: 700px) {
   #heroImageText h1 {
     font-size: 14vw;
@@ -213,7 +220,8 @@ html {
   }
 
   #heroImage {
-    background-position: left;
+    background-image: url(/heroImageMobile2.jpg);
+    background-position: center center;
   }
 }
 
