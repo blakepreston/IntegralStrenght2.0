@@ -333,7 +333,7 @@ p {
 
 @media (max-width: 700px) {
   #container {
-    margin-top: 20vh;
+    margin-top: 10vh;
   }
 
   #image img {
@@ -457,7 +457,7 @@ p {
 
 @media (max-width: 700px) {
   #container2 {
-    margin-top: 40vh;
+    margin-top: 10vh;
   }
 
   #image2 img {
