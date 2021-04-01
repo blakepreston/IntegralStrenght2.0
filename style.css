@@ -126,9 +126,10 @@ html {
 #heroImage {
   position: relative;
   z-index: 1;
+  padding-top: 5em;
   background-color: black;
-  background-image: url(/groupPic.jpeg);
-  height: 69vh;
+  background-image: url(/HeroImageSmaller.jpg);
+  height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -209,6 +210,16 @@ html {
 
   #heroImageText {
     margin-bottom: 10vh;
+  }
+
+  #heroImage {
+    background-position: left;
+  }
+}
+
+@media (max-width: 1100px) {
+  #heroImage {
+    background-position: left;
   }
 }
 
@@ -307,6 +318,7 @@ p {
   #text:hover {
     margin-bottom: 5%;
     margin-right: 0;
+    margin-left: 0;
     transition-duration: 1s;
   }
 }
@@ -430,6 +442,7 @@ p {
   #text2:hover {
     margin-bottom: 5%;
     margin-right: 0;
+    margin-left: 0;
     transition-duration: 1s;
   }
 }
@@ -462,6 +475,20 @@ p {
   #text2 p {
     font-size: 1.2em;
     font-weight: 600;
+  }
+
+  #image2 {
+    margin-right: 0;
+  }
+
+  #image2 img {
+    margin-right: 0;
+  }
+
+  #text2:hover {
+    margin-bottom: 5%;
+    margin-left: 0;
+    transition-duration: 1s;
   }
 }
 
@@ -591,6 +618,20 @@ p {
   #text3 p {
     font-size: 1.2em;
     font-weight: 600;
+  }
+
+  #image3 {
+    margin-right: 0;
+  }
+
+  #image3 img {
+    margin-right: 0;
+  }
+
+  #text3:hover {
+    margin-bottom: 5%;
+    margin-right: 0;
+    transition-duration: 1s;
   }
 }
 
