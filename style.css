@@ -50,6 +50,14 @@ html {
   display: none;
 }
 
+#sideMenu {
+  display: none;
+}
+
+#menu {
+  display: none;
+}
+
 @media (max-width: 800px) {
   #navigation {
     display: none;
@@ -74,6 +82,28 @@ html {
 
   #mobileLogo {
     height: 80px;
+  }
+
+  #menu {
+    height: 100vh;
+    width: 70vw;
+    margin-left: -100%;
+    background-color: #d8384d;
+    display: flex;
+    z-index: 3;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+  }
+
+  #menu a {
+    margin: 5%;
+    margin-top: 20%;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
   }
 }
 
@@ -141,8 +171,8 @@ html {
 
 #readMore {
   margin-top: 1em;
-  background-color: red;
-  border: solid 0.1em red;
+  background-color: #d8384d;
+  border: solid 0.1em #d8384d;
   color: white;
   font-weight: 600;
   font-size: 1em;
@@ -204,7 +234,7 @@ html {
 #text:hover {
   margin-right: 10%;
   transition-duration: 1s;
-  border-left: 10px solid red;
+  border-left: 10px solid #d8384d;
   padding-left: 25px;
 }
 
@@ -238,8 +268,8 @@ p {
   background: transparent;
   font-weight: 600;
   font-size: 1.2em;
-  border-left: solid 3px red;
-  border-bottom: solid 3px red;
+  border-left: solid 3px #d8384d;
+  border-bottom: solid 3px #d8384d;
   border-top: none;
   border-right: none;
   padding-right: 75px;
@@ -248,7 +278,7 @@ p {
 }
 
 #priceButton:hover {
-  background-color: red;
+  background-color: #d8384d;
   color: white;
   transition-duration: 1s;
 }
@@ -333,7 +363,7 @@ p {
 #text2:hover {
   margin-bottom: 5%;
   transition-duration: 1s;
-  border-right: 10px solid red;
+  border-right: 10px solid #d8384d;
   padding-right: 25px;
 }
 
@@ -361,8 +391,8 @@ p {
   background: transparent;
   font-weight: 600;
   font-size: 1.2em;
-  border-left: solid 3px red;
-  border-bottom: solid 3px red;
+  border-left: solid 3px #d8384d;
+  border-bottom: solid 3px #d8384d;
   border-top: none;
   border-right: none;
   padding-right: 75px;
@@ -371,7 +401,7 @@ p {
 }
 
 #priceButton2:hover {
-  background-color: red;
+  background-color: #d8384d;
   color: white;
   transition-duration: 1s;
 }
@@ -457,7 +487,7 @@ p {
 #text3:hover {
   margin-right: 10%;
   transition-duration: 1s;
-  border-left: 10px solid red;
+  border-left: 10px solid #d8384d;
   padding-left: 25px;
 }
 
@@ -484,8 +514,8 @@ p {
   background: transparent;
   font-weight: 600;
   font-size: 1.2em;
-  border-left: solid 3px red;
-  border-bottom: solid 3px red;
+  border-left: solid 3px #d8384d;
+  border-bottom: solid 3px #d8384d;
   border-top: none;
   border-right: none;
   padding-right: 75px;
@@ -494,7 +524,7 @@ p {
 }
 
 #priceButton3:hover {
-  background-color: red;
+  background-color: #d8384d;
   color: white;
   transition-duration: 1s;
 }

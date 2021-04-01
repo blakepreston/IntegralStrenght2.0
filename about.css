@@ -75,6 +75,28 @@ html {
   #mobileLogo {
     height: 80px;
   }
+
+  #menu {
+    height: 100vh;
+    width: 70vw;
+    margin-left: -100%;
+    background-color: #d8384d;
+    display: flex;
+    z-index: 3;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+  }
+
+  #menu a {
+    margin: 5%;
+    margin-top: 20%;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
 }
 
 /* @media (max-width: 699px) {
@@ -141,8 +163,8 @@ html {
 
 #readMore {
   margin-top: 1em;
-  background-color: red;
-  border: solid 0.1em red;
+  background-color: #d8384d;
+  border: solid 0.1em #d8384d;
   color: white;
   font-weight: 600;
   font-size: 1em;
