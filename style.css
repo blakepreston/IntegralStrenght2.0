@@ -3,6 +3,7 @@ body {
   width: 100%;
   font-family: Futura, sans-serif;
   font-style: normal;
+  background-color: #100c08;
 }
 
 html {
@@ -248,6 +249,7 @@ html {
   margin-right: 5%;
   margin-left: 20%;
   transition-duration: 1s;
+  color: white;
 }
 
 #text:hover {
@@ -293,7 +295,10 @@ p {
   border-right: none;
   padding-right: 75px;
   padding-bottom: 0.1em;
+  padding-top: 0.1em;
   transition-duration: 1s;
+  color: white;
+  text-transform: uppercase;
 }
 
 #priceButton:hover {
@@ -378,6 +383,7 @@ p {
   margin-left: 5%;
   transition-duration: 1s;
   margin-top: 0;
+  color: white;
 }
 
 #text2:hover {
@@ -417,7 +423,10 @@ p {
   border-right: none;
   padding-right: 75px;
   padding-bottom: 0.1em;
+  padding-top: 0.1em;
   transition-duration: 1s;
+  color: white;
+  text-transform: uppercase;
 }
 
 #priceButton2:hover {
@@ -517,6 +526,7 @@ p {
   margin-right: 5%;
   margin-left: 20%;
   transition-duration: 1s;
+  color: white;
 }
 
 #text3:hover {
@@ -555,7 +565,10 @@ p {
   border-right: none;
   padding-right: 75px;
   padding-bottom: 0.1em;
+  padding-top: 0.1em;
   transition-duration: 1s;
+  color: white;
+  text-transform: uppercase;
 }
 
 #priceButton3:hover {
@@ -650,11 +663,12 @@ p {
   flex-direction: row;
   justify-content: center;
   margin: 5%;
+  color: white;
 }
 
 #container4 div {
   margin: 5%;
-  border: 5px black solid;
+  border: 5px white solid;
   padding: 30px;
   text-align: center;
 }
