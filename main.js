@@ -30,3 +30,18 @@ function menuAnimation(){
     move();
     menuChange();
 }
+
+/***************************************************************************/
+var mobileNavigation = document.getElementById('mobileNav');
+var topNav = mobileNavigation.offsetTop;
+yOffset = window.pageYOffset;
+
+window.onscroll = function(){navAnimation()};
+
+function navAnimation(){
+    if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+        document.getElementById('mobileNav').style.paddingTop = "100px";
+    }
+}
+
+/***************************************************************************/
