@@ -118,18 +118,18 @@ html {
 }
 
 /* @media (max-width: 699px) {
-  #mobileNav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    z-index: 3;
-    position: fixed;
-    width: 100%;
-    background-color: rgb(97, 88, 88);
-  }
-} */
+      #mobileNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        z-index: 3;
+        position: fixed;
+        width: 100%;
+        background-color: rgb(97, 88, 88);
+      }
+    } */
 
 /****************************************************************/
 
@@ -146,10 +146,10 @@ html {
 }
 
 /* #heroImage img {
-  margin-top: 25px;
-  width: 100%;
-  opacity: 70%;
-} */
+      margin-top: 25px;
+      width: 100%;
+      opacity: 70%;
+    } */
 
 #heroImageText {
   position: absolute;
