@@ -443,6 +443,7 @@ p {
   background-color: #d8384d;
   color: white;
   transition-duration: 1s;
+  cursor: pointer;
 }
 
 @media (max-width: 1100px) {
@@ -585,6 +586,7 @@ p {
   background-color: #d8384d;
   color: white;
   transition-duration: 1s;
+  cursor: pointer;
 }
 
 #image3 img {
