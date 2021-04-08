@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="/about.css">
-    <script src="/about.js"></script>
+    <script src="/main.js"></script>
     <title>Test</title>
 </head>
 <body>
     <nav class="navigation" id="navigation">
         <div><img src="strengthLogo2.png" alt="" id="logo"></div>
-        <div><a href="/index.html">Home</a></div>       
+        <div><a href="/index.html">Home</a></div>
+        <div><a href="#me">About</a></div>
+        <!-- <div><a href="#image">Programs</a></div>         -->
         <div><a href="#container4">Contact</a></div>
-        <div><a href="">Pricing</a></div>
+        <div><a href="/price.html">Pricing</a></div>
         <div><img src="facebook.png" alt="" id="facebook"></div>
         <div><img src="instagram.png" alt="" id="instagram"></div>
     </nav>
@@ -29,46 +31,45 @@
 
     <div id="menu" class="menu">
         <a href="/index.html" id="closeMenu" onclick="closeMenu()">Home</a>
+        <a href="#image" id="closeMenu" onclick="closeMenu()">Programs</a>
         <a href="#container4" id="closeMenu" onclick="closeMenu()">Contact</a>
         <a href="/price.html" id="closeMenu" onclick="closeMenu()">Pricing</a>
     </div>
 
     <div class="heroImage" id="heroImage">
         <div id="heroImageText">
-            <!-- <h1>About Me</h1> -->
+            <h1>About Me</h1>
             <h2>Austin Bohnsack</h2>
             <h3>Powerlifting. Nutrition. Remote Training.</h3>
-            <button id="readMore">Read More</button>
-            <button id="contactMe">Contact Me</button>
+            <a href="#me"><button id="readMore">Read More</button></a>
+            <a href="#container4"><button id="contactMe">Contact Me</button></a>
         </div>
 
         <!-- <img src="groupPic1 - Copy.jpeg" alt=""> -->
     </div>
 
-  <div class="aboutSection" id="aboutSection">
-        <h1>About Me</h1>
-        <p>My name is Austin Bohnsack. I am a University of Montana graduate with a bachelor’s
-            degree in Health and Human Performance with a concentration on exercise science. I am also a NSCA
-            Certified Personal Trainer and a Certified Strength and Conditioning Specialist. </p>
-            
-            <p>Growing up I played baseball for Westside Little League and then for the Missoula Mavericks. I
-            went on to play baseball at Central Washington University and at North Iowa Area Community College
-            (NIACC). During my time at NIACC we were ranked 14th in the nation.
-            Unfortunately, my college baseball career was cut short due to a torn UCL which required
-            Tommy John and hundreds of hours in rehab to fix my elbow/shoulder. This led into an internship with
-            Chad Kay, a physical therapist who specializes in shoulder rehab. Upon completion of this internship I
-            got into powerlifting. For the past two years I have been working with Dale Garlitz, a world record
+    <div class="aboutMe" id="aboutMe">
+        <h1 class="me" id="me">About Me</h1>
+        <p> My name is Austin Bohnsack. I am a University of Montana graduate with a bachelor’s degree in 
+            Health and Human Performance with a concentration on exercise science. I am also a NSCA Certified 
+            Personal Trainer and a Certified Strength and Conditioning Specialist. 
+            Growing up I played baseball for Westside Little League and then for the Missoula Mavericks. 
+            I went on to play baseball at Central Washington University and at North Iowa Area Community 
+            College (NIACC). During my time at NIACC we were ranked 14th in the nation. 
+            Unfortunately, my college baseball career was cut short due to a torn UCL which required Tommy 
+            John and hundreds of hours in rehab to fix my elbow/shoulder. This led into an internship with 
+            Chad Kay, a physical therapist who specializes in shoulder rehab. Upon completion of this internship 
+            I got into powerlifting. For the past two years I have been working with Dale Garlitz, a world record 
             holding powerlifter, to further my powerlifting knowledge.
-            I became a strength coach/trainer to help people play sports at the highest level, and most
-            importantly to train them in ways that reduce injuries as much as possible.</p></p>
+            I became a strength coach/trainer to help people play sports at the highest level, and most importantly 
+            to train them in ways that reduce injuries as much as possible.
+            </p>
     </div>
 
-
-
     <div class="container4" id="container4">
-        <div>
+        <div class="email" id="email">
             <h1>Email Me</h1>
-            <h2>email@gmail.com</h2>
+            <h2>Austinbohnsack2015@gmail.com</h2>
         </div>
         <div>
             <h1>Social Media</h1>
@@ -76,7 +77,7 @@
         </div>
         <div>
             <h1>Call Me</h1>
-            <h2>000-000-0000</h2>
+            <h2>(406)544-0118</h2>
         </div>
     </div>
 
