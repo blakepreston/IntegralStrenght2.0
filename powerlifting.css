@@ -79,6 +79,27 @@ html {
   background-color: #ed3e56;
 }
 
+#facebookMobile {
+  position: relative;
+  height: 45px;
+  background-color: transparent;
+  /* border-radius: 20%; */
+  cursor: pointer;
+  transition: 1s;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+#instagramMobile {
+  position: relative;
+  height: 45px;
+  background-color: transparent;
+  /* border-radius: 20%; */
+  border-color: transparent;
+  cursor: pointer;
+  transition: 1s;
+}
+
 #mobileNav {
   display: none;
 }
