@@ -30,6 +30,17 @@ html {
 #navigation a {
   text-decoration: none;
   color: white;
+  transition: 0.5s;
+}
+
+#navElement {
+  transition: 0.5s;
+}
+
+#navElement:hover {
+  border-bottom: #d8384d 5px solid;
+  padding-bottom: 15px;
+  transition-duration: 0.5s;
 }
 
 #logo {
@@ -40,16 +51,54 @@ html {
 
 #facebook {
   position: relative;
+  margin: 10px;
   height: 35px;
-  background-color: white;
-  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20%;
+  cursor: pointer;
+  transition: 1s;
 }
 
 #instagram {
   position: relative;
   height: 35px;
-  background-color: white;
-  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20%;
+  border-color: transparent;
+  cursor: pointer;
+  transition: 1s;
+  margin: 10px;
+}
+
+#facebook:hover {
+  transition: 1s;
+  background-color: #ed3e56;
+}
+
+#instagram:hover {
+  transition: 1s;
+  background-color: #ed3e56;
+}
+
+#facebookMobile {
+  position: relative;
+  height: 45px;
+  background-color: transparent;
+  border-radius: 20%;
+  cursor: pointer;
+  transition: 1s;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+#instagramMobile {
+  position: relative;
+  height: 45px;
+  background-color: transparent;
+  border-radius: 20%;
+  border-color: transparent;
+  cursor: pointer;
+  transition: 1s;
 }
 
 #mobileNav {
