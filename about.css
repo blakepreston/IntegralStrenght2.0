@@ -45,8 +45,8 @@ html {
 
 #logo {
   position: relative;
-  height: 85px;
-  background-color: #d8384d;
+  height: 150px;
+  margin-top: 20px;
 }
 
 #facebook:hover {
@@ -139,8 +139,8 @@ html {
   }
 
   #mobileLogo {
-    height: 80px;
-    background-color: #d8384d;
+    height: 160px;
+    margin-top: 20px;
   }
 
   #menu {

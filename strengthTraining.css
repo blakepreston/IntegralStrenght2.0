@@ -50,8 +50,8 @@ html {
 
 #logo {
   position: relative;
-  height: 85px;
-  background-color: #d8384d;
+  height: 150px;
+  margin-top: 20px;
 }
 
 #facebook {
@@ -144,8 +144,8 @@ html {
   }
 
   #mobileLogo {
-    height: 80px;
-    background-color: #d8384d;
+    height: 160px;
+    margin-top: 20px;
   }
 
   #menu {
@@ -192,7 +192,7 @@ html {
   z-index: 1;
   padding-top: 5em;
   background-color: black;
-  background-image: url(/HeroImageSmaller.jpg);
+  background-image: url(/groupPic.jpeg);
   height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -267,10 +267,10 @@ html {
 }
 
 @media (max-width: 900px) {
-  #heroImage {
-    background-image: url(/heroImageMobile.jpg);
+  /* #heroImage {
+    background-image: url(/groupPic.jpg);
     background-position: center center;
-  }
+  } */
 }
 
 @media (max-width: 700px) {
@@ -297,10 +297,10 @@ html {
     margin-bottom: 10vh;
   }
 
-  #heroImage {
-    background-image: url(/heroImageMobile2.jpg);
+  /* #heroImage {
+    background-image: url(/groupPic.jpg);
     background-position: center center;
-  }
+  } */
 }
 
 @media (max-width: 1100px) {
