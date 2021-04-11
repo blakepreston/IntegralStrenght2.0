@@ -264,6 +264,7 @@ html {
   #heroImage {
     background-image: url(/bigguySquat2.jpeg);
     background-position: right;
+    height: 65vh;
   }
 }
 

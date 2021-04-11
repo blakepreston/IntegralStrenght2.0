@@ -263,8 +263,9 @@ html {
 
 @media (max-width: 900px) {
   #heroImage {
-    background-image: url(/heroImageMobile.jpg);
+    background-image: url(/baseballStock2.jfif);
     background-position: center center;
+    height: 65vh;
   }
 }
 
@@ -293,7 +294,7 @@ html {
   }
 
   #heroImage {
-    background-image: url(/heroImageMobile2.jpg);
+    background-image: url(/baseballStock3.jfif);
     background-position: center center;
   }
 }

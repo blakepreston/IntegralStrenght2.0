@@ -192,7 +192,7 @@ html {
   z-index: 1;
   padding-top: 5em;
   background-color: black;
-  background-image: url(/groupPic.jpeg);
+  background-image: url(/bigguySquat.jpeg);
   height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -267,10 +267,10 @@ html {
 }
 
 @media (max-width: 900px) {
-  /* #heroImage {
-    background-image: url(/groupPic.jpg);
-    background-position: center center;
-  } */
+  #heroImage {
+    background-image: url(/bigguySquat2.jpeg);
+    height: 65vh;
+  }
 }
 
 @media (max-width: 700px) {
@@ -297,10 +297,10 @@ html {
     margin-bottom: 10vh;
   }
 
-  /* #heroImage {
-    background-image: url(/groupPic.jpg);
+  #heroImage {
+    background-image: url(/bigguySquat2.jpeg);
     background-position: center center;
-  } */
+  }
 }
 
 @media (max-width: 1100px) {

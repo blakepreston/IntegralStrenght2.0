@@ -265,6 +265,7 @@ html {
   #heroImage {
     background-image: url(/heroImageMobile.jpg);
     background-position: center center;
+    height: 65vh;
   }
 }
 
